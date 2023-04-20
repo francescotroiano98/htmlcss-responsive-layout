@@ -6,6 +6,9 @@
 header{
     background-color: blue;
 }
+body{
+    width: 480px;
+}
 .flex{
     display: flex;
 }
