@@ -24,10 +24,7 @@ main{
 }
 .width-90{
     width: 90%;
-    height: 100px; /*Solo per vedere le section*/
-}
-.height{
-    height: 500px;  /*Solo per vedere le section*/
+    height: 500px; /*Solo per vedere le section*/
 }
 .space-between{
     justify-content: space-between;
@@ -39,7 +36,7 @@ main{
 .bg-color-lightblue{
     background-color: lightblue;
 }
-.bg-color-purplee{
+.bg-color-purple{
     background-color: purple;
 }
 .minus-radius{
