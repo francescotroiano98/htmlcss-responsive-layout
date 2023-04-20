@@ -4,11 +4,26 @@
     box-sizing: border-box;
 }
 header{
-    background-color: aqua;
+    background-color: blue;
 }
 .flex{
     display: flex;
 }
 .space-between{
     justify-content: space-between;
+}
+.bg-color-lightblue{
+    background-color: lightblue;
+}
+.bg-color-purplee{
+    background-color: purple;
+}
+.minus-radius{
+    border-radius: 10%;
+}
+.mid-radius{
+    border-radius: 20%;
+}
+.big-radius{
+    border-radius: 50%;
 }
