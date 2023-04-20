@@ -49,6 +49,9 @@ width: 90%;
 
     height: 500px; /*Solo per vedere le section*/
 }
+.text-center{
+    text-align: center;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -128,7 +131,7 @@ width: 90%;
     }
     section.container-2{
         flex-wrap: nowrap;
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
     }
     div.box-left{
@@ -142,5 +145,9 @@ width: 90%;
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 100px;
+    }
+    section.container-3{
+        width: 70%;
+        margin: 0 auto;
     }
 }
