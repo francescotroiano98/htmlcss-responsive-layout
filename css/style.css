@@ -3,17 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: blue;
-}
 body{
     width: 480px;
+}
+header{
+    width: 100%;
+    background-color: blue;
+}
+main{
+    padding-top: 20px;
 }
 .flex{
     display: flex;
 }
+.margin{
+    margin: 0 auto;
+}
+.margin-bottom{
+    margin-bottom: 1rem;
+}
+.width-90{
+    width: 90%;
+    height: 100px; /*Solo per vedere le section*/
+}
+.height{
+    height: 500px;  /*Solo per vedere le section*/
+}
 .space-between{
     justify-content: space-between;
+}
+.bg-color-white{
+    background-color: white;
+
 }
 .bg-color-lightblue{
     background-color: lightblue;
