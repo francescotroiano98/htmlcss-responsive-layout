@@ -61,10 +61,14 @@ ul{
 
 @media screen and (min-width:460px){
     div.big-card{
-        width: calc((100% / 3) * 2);
+        width: calc(((100% / 3) * 2) - 2 * 2%);
+        margin-left: 2%;
+        margin-right: 2%;
     }
     div.small-card{
-        width: calc(100% / 3);
+        width: calc((100% / 3) - 2 * 2%);
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
 }
