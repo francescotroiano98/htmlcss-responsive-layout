@@ -33,7 +33,8 @@ ul{
     margin-bottom: 1rem;
 }
 .width-90{
-    width: 90%;
+width: 90%;
+
     height: 500px; /*Solo per vedere le section*/
 }
 .space-between{
@@ -55,6 +56,9 @@ ul{
 .mid-radius{
     border-radius: 20%;
 }
+.icon-size{
+    width: 100%;
+}
 .big-radius{
     border-radius: 50%;
 }
@@ -69,6 +73,30 @@ ul{
         width: calc((100% / 3) - 2 * 2%);
         margin-left: 2%;
         margin-right: 2%;
+    }
+    div.white-card {
+        width: calc((100% / 2) - 2 * 4%);
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+    div.text-box{
+        width: calc(((100% / 3) * 2) - 2 * 2%);
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+    div.image-box{
+        width: calc((100% / 3) - 2 * 2%);
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    div.price-section{
+        width: 70%;
+    }
+    
+    section.footer-section{
+        width: 60%;
     }
 
 }
