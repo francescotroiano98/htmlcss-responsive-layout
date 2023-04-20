@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 480px;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -16,8 +16,15 @@ main{
 footer{
     background-color: darkgray;
 }
+ul{
+    list-style: none;
+    color: white;
+}
 .flex{
     display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 .margin{
     margin: 0 auto;
@@ -50,4 +57,14 @@ footer{
 }
 .big-radius{
     border-radius: 50%;
+}
+
+@media screen and (min-width:460px){
+    div.big-card{
+        width: calc((100% / 3) * 2);
+    }
+    div.small-card{
+        width: calc(100% / 3);
+    }
+
 }
