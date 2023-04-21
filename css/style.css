@@ -34,6 +34,11 @@ li a{
 li button a{
     color: black;
 }
+nav button{
+        padding: 0.5em;
+        width: 100%;
+        font-size: medium;
+}
 button{
     padding: 0.7em;
     width: 80%;
@@ -123,6 +128,26 @@ i{
     width: 100%;
     height: 100%;
 }
+.box-right{
+    padding: 1rem;
+}
+.box-left{
+    padding: 1rem;
+    color: white;
+}
+.box-left h2{
+    margin: 1em 0em;
+    font-size: 3rem;
+}
+
+.circle{
+    border-radius: 2em;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
 .align-center{
     align-items: center;
 }
@@ -131,6 +156,9 @@ i{
 }
 .space-between{
     justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
 }
 .bg-color-white{
     background-color: white;
@@ -143,10 +171,10 @@ i{
     background-color: #9593e6;
 }
 .minus-radius{
-    border-radius: 10%;
+    border-radius: 1em;
 }
 .mid-radius{
-    border-radius: 20%;
+    border-radius: 3em;
 }
 .image-size{
     width:100%;
