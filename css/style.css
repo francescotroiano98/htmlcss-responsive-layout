@@ -16,10 +16,6 @@ main{
 footer{
     background-color: darkgray;
 }
-.container{
-    align-items: center;
-    display: none;
-}
 nav{
     width: 50%;
     padding-top: 1rem;
@@ -31,6 +27,10 @@ ul{
 }
 .flex{
     display: flex;
+}
+.container{
+    align-items: center;
+    display: none;
 }
 .wrap{
     flex-wrap: wrap;
