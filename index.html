@@ -13,13 +13,13 @@
     <body>
         <header>
             
-            <nav class="width-90 margin">        <!--(INIZIO)Questa è la nav che viene visualizzata per smartphone e Tablet-->
+            <nav class="container-0 width-90-only margin">        <!--(INIZIO)Questa è la nav che viene visualizzata per smartphone e Tablet-->
                 <ul class="flex space-between">
                     <li>
-                        <img src="img/logo.png" alt="">
+                        <a href="#"><img src="img/logo.png" alt="Logo"></a>
                     </li>
                     <li>
-                        LISTA
+                         <a href="#"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></a>
                     </li>
                 </ul>
             </nav>                              <!--(FINE)Questa è la nav che viene visualizzata per smartphone e Tablet-->
@@ -29,26 +29,31 @@
                     <nav>
                         <ul>
                             <li>
-                                <img src="img/logo.png" alt="">
+                                <a href="#"><img src="img/logo.png" alt="Logo"></a>
                             </li>
                         </ul>
                     </nav>
                     <nav>    
-                        <ul class="flex space-between">
-                            <li>Planning
+                        <ul class="flex space-between align-center">
+
+                            <li><a href="#"> Planning
+
+                                </a>
 
                             </li>
-                            <li>
-                                Testimonials
+                            <li><a href="#">Testimonials
+
+                                </a>
+                            </li>
+                            <li><a href="#">Features
+
+                                </a>
+                            </li>
+                            <li><a href="#">Abaout Us
+                                </a>
                             </li>
                             <li>
-                                Features
-                            </li>
-                            <li>
-                                Abaout Us
-                            </li>
-                            <li>
-                                <button> Get Started </button>
+                                <button class="minus-radius"> <a href="#"> Get Started </a></button>
                             </li>
                         </ul>
 
@@ -58,10 +63,28 @@
         <main class="bg-color-white">
 
             <section class="container-1 flex wrap bg-color-white"> <!--Background color white--questa prima section dovrà avere all'interno un div-container leggermente più piccolo esempio 90% e margin 0 auto-->
-                <div class="big-card width-90 margin margin-bottom minus-radius bg-color-lightblue">
+                <div class="big-card width-90-only flex wrap margin margin-bottom minus-radius bg-color-lightblue">
+                    <div class="demo">
+                        <h2>
+                            Ger a demo pplication
+                        </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio consequuntur accusamus, iure ea, assumenda est, modi quos illo ab tenetur ullam suscipit repellat vitae iste eum eius in! Asperiores, nulla!</p>
+                        <button><a href="#"><i class="fa-brands fa-apple" style="color: #ffffff;"></i>App Store</a></button>
+                    </div>
+
+                    <div class="demo-img">
+                        
+                        <img src="img/phone.png" alt="phone">
+                    </div>
 
                 </div>
-                <div class="small-card width-90  margin margin-bottom minus-radius bg-color-lightblue">
+                <div class="small-card width-90-only flex wrap margin margin-bottom minus-radius bg-color-lightblue">
+                    <i class="fa-solid fa-file-code" style="color: #1a6eff;"></i>
+
+                    <h2>
+                        Ger a demo pplication
+                    </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio consequuntur accusamus, iure ea, assumenda est, modi quos illo ab tenetur ullam suscipit repellat vitae iste eum eius in! Asperiores, nulla!</p>
                     
                 </div>
                 <div class="small-card width-90 margin margin-bottom minus-radius bg-color-lightblue">
