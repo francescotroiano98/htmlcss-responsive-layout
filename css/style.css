@@ -155,7 +155,33 @@ i{
     margin: 1em 0;
     font-size: 1.7em;
 }
-
+.profile{
+    padding: 1em 1.5em 2em 1.5em;
+    color: white;
+    text-align: center;
+}
+.photo-container{
+    width: 100%;
+}
+.photo-container img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.photo-description-container p{
+    width: 100%;
+    
+}
+.photo-description-container h3{
+    margin-top: 1em;
+}
+.virgolette-top i{
+    font-size: 2em;
+}
+.name{
+    margin-top: 1em;
+}
 .align-center{
     align-items: center;
 }
@@ -211,6 +237,23 @@ i{
         margin-left: 2%;
         margin-right: 2%;
 
+    }
+    div.profile{
+        flex-wrap:nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    div.photo-container{
+        padding-right: 2em;
+    }
+    div.photo-container img{
+        width: 243px;
+        height: 243px;
+        
+    }
+    div.photo-container-description{
+        width: 80%;
     }
     div.text-box{
         width: calc(((100% / 3) * 2) - 2 * 2%);
