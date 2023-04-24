@@ -236,6 +236,42 @@ i{
     color: #9593e6;
     font-weight: bolder;
 }
+.price-section{
+    padding: 3em 0;
+}
+.price-section h2{
+    color: #ffffff;
+    margin: 1em 0;
+    font-size: 2em;
+    }
+.price-section h1{
+color: #e7a635;
+font-size: 3em;
+}
+.price-section p{
+    color: #ffffff;
+    margin: 1em 0;
+    font-size: 0.8em;
+}
+.price-section button{
+    color: #9593e6;
+    padding: 1.4em;
+    width: 50%;
+    margin: 1em 0;
+    font-size: 1em;
+}
+.price-section ul{
+    list-style: unset;
+}
+.price-section li{
+    margin-left: 1.5em;
+}
+.decoration-none{
+    text-decoration: none;
+}
+.decoration-underline{
+    text-decoration: underline;
+}
 .align-center{
     align-items: center;
 }
