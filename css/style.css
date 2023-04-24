@@ -44,6 +44,7 @@ button{
     width: 80%;
     font-size: medium;
     margin: 10% 0;
+    border: none;
 }
 .flex{
     display: flex;
@@ -213,6 +214,28 @@ i{
     color: #9593e6;
     margin: 1em 0;
 }
+.text-box h2{
+    color: #9593e6;
+    font-size: 4em;
+    margin: 1em 0 0.3em 0;
+    
+}
+.text-box p{
+    margin-bottom: 1em ;
+}
+.bellicapelli{
+    position: relative;
+}
+.virgolette{
+    position: absolute;
+}
+.image-box h3{
+    line-height: 1.5em;
+    font-size: 1.8em;
+    margin-top: 0.7em;
+    color: #9593e6;
+    font-weight: bolder;
+}
 .align-center{
     align-items: center;
 }
@@ -224,6 +247,9 @@ i{
 }
 .justify-center{
     justify-content: center;
+}
+.text-white{
+    color: white;
 }
 .bg-color-white{
     background-color: white;
@@ -275,12 +301,9 @@ i{
         align-items: center;
         text-align: left;
     }
-    div.photo-container{
-        padding-right: 2em;
-    }
     div.photo-container img{
-        width: 243px;
-        height: 243px;
+        width: 150px;
+        height: 150px;
         
     }
     div.photo-container-description{
@@ -290,7 +313,8 @@ i{
         width: calc(((100% / 3) * 2) - 2 * 2%);
         margin-left: 2%;
         margin-right: 2%;
-
+        margin-bottom: 3em;
+        padding-right: 1em;
     }
     div.demo-img{
         padding-right: 35%;
@@ -299,6 +323,14 @@ i{
         width: calc((100% / 3) - 2 * 2%);
         margin-left: 2%;
         margin-right: 2%;
+        margin-top: 3.5em;
+    }
+    div.image-box h3{
+        font-size: 1em;
+    }
+    div.image-box button{
+        font-size: 0.6em;
+        padding: 0.5em; 
     }
     div.price-section{
         width: 70%;
@@ -374,5 +406,8 @@ i{
         width: 70%;
         margin: 0 auto;
         padding-top: 2rem;
+    }
+    div.image-box{
+        padding-right: 3em;
     }
 }
