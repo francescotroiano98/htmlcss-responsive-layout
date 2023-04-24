@@ -48,6 +48,9 @@ button{
 .flex{
     display: flex;
 }
+.flex-column{
+    flex-direction: column;
+}
 .container{
     align-items: center;
     display: none;
@@ -85,6 +88,9 @@ button{
 width: 90%;
 
     height: 500px; /*Solo per vedere le section*/
+}
+.width-80{
+    width: 80%;
 }
 .width-70{
     width: 70%;
@@ -165,9 +171,10 @@ i{
 }
 .photo-container img{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
+    margin-top: 1.3em;
 }
 .photo-description-container p{
     width: 100%;
@@ -181,6 +188,30 @@ i{
 }
 .name{
     margin-top: 1em;
+}
+.container-5 h1{
+    font-size: 2em;
+    padding: 1.5em 1.5em;
+    margin: 0 auto;
+    color: white;
+}
+.white-card{
+    padding: 2em 1.5em 1em 1.5em;
+}
+.white-card button{
+    color: white;
+    border: none;
+    width: 45%;
+    line-gap-override: 1px;
+
+}
+.white-card h2{
+    color: #9593e6;
+    font-size: 4em;
+}
+.white-card h3{
+    color: #9593e6;
+    margin: 1em 0;
 }
 .align-center{
     align-items: center;
@@ -331,7 +362,7 @@ i{
         margin: 0 auto;
     }
     section.container-5{
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
     }
     div.white-card {
